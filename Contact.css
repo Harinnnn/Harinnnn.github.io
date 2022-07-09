@@ -10,7 +10,7 @@ body {
 
 .wrap {
     position: absolute;
-    top: 40%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -22,47 +22,50 @@ h2 {
     padding: 5px 0;
     margin-bottom: 10px;
     color: rgb(20, 129, 92);
+    transition: 1s;
     /* text-shadow: 4px 4px 2px rgb(192, 192, 192); */
 }
 
-b{
+h2:hover {
+    font-size: 4.2rem;
+    transition: 1s;
+}
+
+b {
     color: rgb(188, 131, 168);
+    font-size: 1.3rem;
 }
 
 
 h3 {
-    font-family:'GothicA1-Regular';
+    font-family: 'GothicA1-Regular';
     color: gray;
 }
+
 
 .ment {
     font-size: 1.2rem;
     font-family: 'GothicA1-Regular';
-    margin: 10px;
+    margin: 20px;
 }
 
 .ment2 {
     font-size: 1.3rem;
     font-family: 'GothicA1-Regular';
-    margin: 10px;
 }
 
 .sbox {
-    background-color: rgba(255, 255, 255, 0.681);
-    padding: 20px 20px; 
-    transition: 0.5s;
-}
-
-.sbox:hover {
-    background-color: rgba(152, 183, 160, 0.647);
-    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    border-radius: 1000px;
 }
 
 .text {
     font-family: 'GothicA1-Regular';
     font-size: 1.2rem;
     color: rgb(0, 0, 0);
-    line-height: 30px;
+    line-height: 40px;
+    padding: 20px;
 }
 
 .Tbox {
@@ -71,9 +74,36 @@ h3 {
 }
 
 
-    @font-face {
-        font-family: 'GothicA1-Regular';
-        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Regular.woff2') format('woff2');
-        font-weight: 400;
-        font-style: normal;
-    }
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'GothicA1-Regular';
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.topnav a:hover {
+    background-color: rgb(225, 108, 173);
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+
+@font-face {
+    font-family: 'GothicA1-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
