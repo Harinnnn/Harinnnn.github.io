@@ -5,21 +5,19 @@
 }
 
 body {
-    background-image: url('../images/opa.png');
-    background-attachment: fixed;
+    background-color: rgb(253, 251, 240);
 }
 
 .wrap {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 100%;
-    margin-bottom: 30px;
+    text-align: center;
 }
 
 .title {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface';
     font-size: 3rem;
     color: rgb(0, 0, 0);
     margin: 0px;
@@ -55,47 +53,91 @@ body {
     font-size: 1.7rem;
 }
 
-/* 텍스트 */
-
-
-.im {
-    transition: 0.2s;
-}
-
-.im:hover {
-    color: rgb(82, 87, 183);
-    transition: 0.2s;
-}
-
-.immy {
-    transition: 0.2s;
-    color: rgb(188, 92, 161);
-}
-
-/* 박스 */
-/* 
-.box{
-    width:100%;
-    height:100%;
-} */
-
-.tbox {
-    background-color: rgba(255, 255, 255, 0.676);
-    margin: 25px;
-    padding: 40px 40px;
+.text {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: rgb(188, 131, 168);
     font-family: 'GothicA1-Regular';
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 35px;
+}
+
+.smt {
+    color: rgb(176, 176, 176);
+    margin-top: 5px;
+    font-size: 1.3rem;
+}
+
+.q {
+    display: inline-block;
+    color: #777777;
+    font-family: 'GothicA1-Regular';
+    font-size: 6rem;
+    padding: 0px 0px;
+    cursor: pointer;
+
+    background: radial-gradient(rgb(181, 93, 93), rgb(255, 255, 255));
+
+    border-radius: 10000px;
+    width: 100px;
+    height: 100px;
+
+    -webkit-animation: blink 1s ease-in-out infinite alternate;
+    -moz-animation: blink 1s ease-in-out infinite alternate;
+    animation: blink 1s ease-in-out infinite alternate;
+}
+
+h2 {
+    transition: 0.5s;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+h2:hover {
+    font-size: 3rem;
     transition: 0.5s;
 }
 
-.tbox:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    transition: 0.5s;
+.how {
+    font-size: 1rem;
+    color: #797979;
 }
 
+b {
+    color: rgb(188, 131, 168);
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.right {
+    float: right;
+}
 
 .topnav {
     overflow: hidden;
@@ -111,6 +153,7 @@ body {
     text-decoration: none;
     font-size: 17px;
     font-family: 'GothicA1-Regular';
+    font-weight: bold;
     transition: 0.2s;
 }
 
@@ -119,7 +162,6 @@ body {
     color: rgb(255, 255, 255);
     transition: 0.2s;
 }
-
 
 @font-face {
     font-family: 'GothicA1-Regular';

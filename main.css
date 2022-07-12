@@ -6,8 +6,7 @@
 
 
 body {
-    background-color: rgb(239, 239, 226);
-    background-image: url('./images/opa.png');
+    background-image: url('../images/opa.png');
 }
 
 .wrap {
@@ -38,7 +37,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(188, 131, 168);
-    font-family: 'GothicA1-Light';
+    font-family: 'GothicA1-Regular';
 }
 
 .smalltK {
@@ -46,16 +45,12 @@ body {
     font-size: 1.3rem;
     font-weight: bold;
     color: rgb(106, 106, 106);
-    font-family: 'GothicA1-Light';
+    font-family: 'GothicA1-Regular';
 }
 
 
 
 /* 메뉴 바 */
-
-.right {
-    float: right;
-}
 
 .topnav {
     overflow: hidden;
@@ -70,7 +65,7 @@ body {
     padding: 18px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'GothicA1-Light';
+    font-family: 'GothicA1-Regular';
     font-weight: bold;
     transition: 0.2s;
 }
@@ -83,8 +78,8 @@ body {
 
 
 @font-face {
-    font-family: 'GothicA1-Light';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
-    font-weight: 300;
+    font-family: 'GothicA1-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Regular.woff2') format('woff2');
+    font-weight: 400;
     font-style: normal;
 }

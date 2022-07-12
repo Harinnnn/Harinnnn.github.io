@@ -1,0 +1,93 @@
+.wrap {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 100%;
+    width: 70%;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-family: 'Abril fatface';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+p {
+    font-family: 'GothicA1-Light';
+    font-weight: bold;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'GothicA1-Light';
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.topnav a:hover {
+    background-color: rgb(114, 114, 114);
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+img {
+    transition: 0.5s;
+    height:300px;
+    box-shadow: 3px 3px 17px gray;
+    margin: 30px 20px;
+}
+
+img:hover {
+    height:320px;
+    box-shadow: 5px 5px 17px gray;
+}
+
+
+b {
+    color: rgb(188, 131, 168);
+    font-size:2rem;
+    padding: 50px 10px;
+}
+
+.tbox {
+    text-align: left;
+    background-color: rgba(255, 252, 240, 0.897);
+    margin: 25px;
+    padding: 40px 40px;
+    font-family: 'GothicA1-Light';
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 35px;
+    transition: 0.5s;
+    /* margin-left: 350px; */
+}
+
+.tbox:hover {
+    background-color:rgba(255, 253, 248, 0.897);
+    transition: 0.5s;
+    box-shadow: 5px 5px 15px gray;
+
+}
+
+
+@font-face {
+    font-family: 'GothicA1-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}

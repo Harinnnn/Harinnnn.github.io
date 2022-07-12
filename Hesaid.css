@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('./images/22.png');
+    background-image: url('../images/22.png');
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;  
     box-sizing: border-box;
@@ -13,13 +13,11 @@ body {
 
 .wrap {
     position: absolute;
-    top: 30%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
     height: 100%;
-    
-    margin-bottom: 30px;
 }
 
 
@@ -27,7 +25,6 @@ body {
     font-family: 'Abril Fatface';
     font-size: 4rem;
     font-weight: bold;
-    margin-top:200px;
 }
 
 .box{
@@ -52,16 +49,36 @@ body {
     transition: 0.5s;
 }
 
-
-.smallt {
-    font-size: 1.4rem;
-    font-weight:bold;
-    color: rgb(167, 85, 139);
-    font-family: 'GothicA1-Light';
-    margin-bottom:20px;
-    text-shadow: 2px 2px 2px white;
+.title {
+    font-family: 'Abril Fatface';
+    font-size: 3.8rem;
+    font-weight: bold;
+    transition: 0.7s;
 }
 
+.title:hover {
+    color: rgb(188, 131, 168);
+    transition: 0.7s;
+    font-size: 4rem;
+}
+
+.smalltitle {
+    font-family: 'Abril fatface';
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(46, 46, 184);
+}
+
+.smallt {
+    font-size: 1.2rem;
+    font-weight:bold;
+    color: rgb(194, 129, 171);
+    background-color: rgba(250, 235, 215, 0.835);
+    padding:20px;
+    width:70%;
+    font-family: 'GothicA1-Light';
+    margin:2px 90px;
+}
 
 
 .topnav {
